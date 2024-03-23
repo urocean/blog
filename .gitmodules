@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:urocean/urocean.github.io.git
+	branch = main
