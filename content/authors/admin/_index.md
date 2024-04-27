@@ -11,7 +11,7 @@ last_name: Осина
 
 # Status emoji
 status: 
-  icon: 🍓
+  icon: raspberry-pi
 
 # Is this the primary user of the site?
 superuser: true
@@ -32,6 +32,7 @@ interests:
   - Программирование
   - Нейробиология
   - Психология
+  - Рисование
   - Музыка
 
 # Education to show in About widget
@@ -48,37 +49,48 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 20
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: C++
         description: ''
-        percent: 100
-        icon: chart-line
+        percent: 38
+        icon: code
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        percent: 20
         icon: database
         icon_pack: fas
+      - name: Git
+        description: ''
+        percent: 33
+        icon: github
+        icon_pack: fab
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Чтение книг
         description: ''
+        percent: 40
+        icon: bookmark
+        icon_pack: fas
+      - name: Рисование
+        description: 'редко, но метко'
+        percent: 70
+        icon: paintbrush
+        icon_pack: fas
+      - name: Изучение психологии и нейробиологии
+        description: 'всем советую'
         percent: 60
-        icon: person-hiking
+        icon: brain
         icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
+      - name: Музыка
+        description: 'в основном слушаю, но еще люблю петь'
+        percent: 40
+        icon: music
         icon_pack: fas
 
 # Social/Academic Networking
@@ -86,30 +98,24 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
+  - icon: book-bookmark
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
+    link: https://elibrary.ru/project_user_office.asp
+  - icon: orcid
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+    link: https://orcid.org/my-orcid?orcid=0009-0008-3121-0234&justRegistered=true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?view_op=list_works&hl=ru&user=QounhW8AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
+    link: https://github.com/urocean
+  - icon: mendeley
     icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://www.mendeley.com/search/
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://independent.academia.edu/urocean
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
